@@ -65,12 +65,6 @@
             <version>1.4</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>com.opencsv</groupId>
-            <artifactId>opencsv</artifactId>
-            <version>4.1</version>
-            <scope>provided</scope>
-        </dependency>
         <!-- Test dependencies -->
         <dependency>
             <groupId>com.buschmais.jqassistant.core</groupId>
@@ -101,6 +95,19 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
             <version>1.7.13</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-module-junit4</artifactId>
+            <version>1.7.4</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.powermock</groupId>
+            <artifactId>powermock-api-mockito</artifactId>
+            <version>1.7.4</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
